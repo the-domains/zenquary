@@ -1,14 +1,26 @@
-layout_spectrum: 0.4355532
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
+typography_spectrum: 0.7610097
 color:
   saturation: 0.1895811
-  lightness: 0.4297122
   brandStrength: 0.8125672
+  rhythmicContrast: 0.6288937
   brandColors:
     - '#FFFFFF'
     - '#6C1F85'
     - '#DBA7EF'
     - '#8F4BA4'
     - '#6F5378'
-  rhythmicContrast: 0.6288937
-typography_spectrum: 0.7610097
+  lightness: 0.4297122
+layout_spectrum: 0.4731471
 name: ZenQuary
